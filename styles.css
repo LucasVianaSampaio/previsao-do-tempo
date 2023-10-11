@@ -67,12 +67,17 @@ h2 {
 .weather{
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 2px;
+}
+
+.weather img {
+    height: 50px;
 }
 
 .weather p {
     color: #ffffff;
     margin-left: 15px;
+    text-transform: capitalize;
 }
 
 .moisture{
