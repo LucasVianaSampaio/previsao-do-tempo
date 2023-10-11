@@ -8,7 +8,6 @@ function dataView(data){
     document.querySelector(".clouds").innerHTML = data.weather[0].description
     document.querySelector(".moisture").innerHTML = `Umidade: ${data.main.humidity}%`
     document.querySelector(".cloud-forecast").src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
-    console.log(data)
 }
 
 async function searchCity(city){
